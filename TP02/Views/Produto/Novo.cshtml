@@ -1,0 +1,42 @@
+﻿@using TPR2.Models
+
+@model  Produto
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+<div>
+    <h5>Novo Produto</h5>
+    @using (Html.BeginForm("Novo", "Produto", FormMethod.Post))
+    {
+<table cellpadding="0" cellspacing="0">
+
+    <!--<tr>
+        <td>ID: </td>
+        <td>
+            Html.TextBoxFor(m => m.Id)
+        </td>
+    </tr>-->
+    <tr>
+        <td>NOME: </td>
+        <td>@Html.TextBoxFor(m => m.Nome)</td>
+    </tr>
+    <tr>
+        <td>PRECO:</td>
+        <td>@Html.TextBoxFor(m => m.Preco)</td>
+    </tr>
+    <tr>
+        <td>DESCRICAO: </td>
+        <td>@Html.TextBoxFor(m => m.Descricao)</td>
+    </tr>
+    <tr>
+        <td>QUANTIDADE: </td>
+        <td>@Html.TextBoxFor(m => m.Quantidade)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input class="waves-effect waves-teal btn-flat" type="submit" value="SALVAR"></td>
+    </tr>
+</table>
+    }
+</div>
+

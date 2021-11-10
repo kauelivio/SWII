@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+<div>
+    <h1>TP2</h1>
+    <button class="waves-effect waves-teal btn-flat">@Html.ActionLink("Produto", "Index", "Produto")</button>
+    <button class="waves-effect waves-teal btn-flat">@Html.ActionLink("Novo Produto", "Novo", "Produto")</button>
+    <button class="waves-effect waves-teal btn-flat">@Html.ActionLink("Nova Categoria", "Novo", "CategoriaDoProduto")</button>
+</div>

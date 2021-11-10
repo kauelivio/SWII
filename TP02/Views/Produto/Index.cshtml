@@ -1,0 +1,43 @@
+﻿@using TPR2.Models
+@using TPR2.Controllers
+
+@model  List<Produto>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+<div class="container">
+
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>NOME</td>
+            <td>PRECO</td>
+            <td>DESCRICAO</td>
+            <td>QUANTIDADE</td>
+        </tr>
+        
+        @foreach (var produto in Model)
+        {
+            <tr>
+                @if (produto.Id != 0)
+                {
+                <td>@produto.Id</td>
+                }
+                else
+                {
+                    <td>ADICIONADO!</td>
+                }
+                <td>@produto.Nome</td>
+                <td>@produto.Preco</td>
+                <td>@produto.Descricao</td>
+                <td>@produto.Quantidade</td>
+                <td><button class="waves-effect waves-teal btn-flat">APAGAR</button></td>
+</tr>
+        }
+
+    </table>
+
+    <button class="waves-effect waves-teal btn-flat">@Html.ActionLink("VOLTAR", "Index", "Home")</button>
+    <button class="waves-effect waves-teal btn-flat">@Html.ActionLink("NOVO PRODUTO", "Novo", "Produto")</button>
+
+</div>
