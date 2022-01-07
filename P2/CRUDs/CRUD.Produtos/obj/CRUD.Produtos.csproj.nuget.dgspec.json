@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Produtos\\CRUD.Produtos.csproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Produtos\\CRUD.Produtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Produtos\\CRUD.Produtos.csproj",
+        "projectName": "CRUD.Produtos",
+        "projectPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Produtos\\CRUD.Produtos.csproj",
+        "packagesPath": "C:\\Users\\dougd\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Produtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dougd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\CRUD.Usuairos.csproj": {
+                "projectPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\CRUD.Usuairos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\CRUD.Usuairos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\CRUD.Usuairos.csproj",
+        "projectName": "CRUD.Usuairos",
+        "projectPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\CRUD.Usuairos.csproj",
+        "packagesPath": "C:\\Users\\dougd\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Prova2\\CRUDs\\CRUD.Usuairos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dougd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

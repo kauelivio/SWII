@@ -40,7 +40,7 @@ namespace CRUD.Usuairos
         private async void btnPut_Click(object sender, EventArgs e)
         {
             var response = await RestHelper.PUT(tbId.Text, tbNome.Text, tbSenha.Text, cbStatus.Checked);
-            tbAll.Text = RestHelper.BeautifyJson(response);
+            tbAll.Text = response;
         }
 
         private async void btnDel_Click(object sender, EventArgs e)

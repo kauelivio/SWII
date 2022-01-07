@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD.Usuairos", "CRUD.Usuairos\CRUD.Usuairos.csproj", "{F7CF0210-AC17-4BB7-A9EA-AD33CE2CFB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD.Usuairos", "CRUD.Usuairos\CRUD.Usuairos.csproj", "{F7CF0210-AC17-4BB7-A9EA-AD33CE2CFB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD.Produtos", "CRUD.Produtos\CRUD.Produtos.csproj", "{2365FEFF-27A5-4A09-80F2-34FE078BC220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F7CF0210-AC17-4BB7-A9EA-AD33CE2CFB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CF0210-AC17-4BB7-A9EA-AD33CE2CFB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7CF0210-AC17-4BB7-A9EA-AD33CE2CFB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2365FEFF-27A5-4A09-80F2-34FE078BC220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2365FEFF-27A5-4A09-80F2-34FE078BC220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2365FEFF-27A5-4A09-80F2-34FE078BC220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2365FEFF-27A5-4A09-80F2-34FE078BC220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

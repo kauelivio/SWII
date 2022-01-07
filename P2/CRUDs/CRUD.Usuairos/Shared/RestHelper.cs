@@ -80,17 +80,17 @@ namespace CRUD.Usuairos.Shared
 
         public static async Task<string> PUT(string id, string nome, string senha, bool status)
         {
-            var inputData = new Dictionary<string, string>
-            {
-                {"Id", id},
-                {"Nome", nome},
-                {"Senha", senha},
-                {"Status", status.ToString()}
-            };
-            var input = new FormUrlEncodedContent(inputData);
+            Usuario user = new Usuario();
+            user.Id = Convert.ToInt32(id);
+            user.Nome = nome;
+            user.Senha = senha;
+            user.Status = status;
+
             using (HttpClient client = new HttpClient())
             {
-                using (HttpResponseMessage res = await client.PostAsync(baseUrl + nameUrl, input))
+                var serializedProduto = JsonConvert.SerializeObject(user);
+                var userRes = new StringContent(serializedProduto, Encoding.UTF8, "application/json");
+                using (HttpResponseMessage res = await client.PutAsync(baseUrl + nameUrl + "/" + id, userRes))
                 {
                     using (HttpContent content = res.Content)
                     {
